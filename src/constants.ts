@@ -21,6 +21,14 @@ import tempeLogo from '@/assets/governments/Tempe.png';
 import santaClaraLogo from '@/assets/governments/Santa Clara.png';
 import sanJoseLogo from '@/assets/governments/SanJose.png';
 import lebanonLogo from '@/assets/governments/Lebanon.png';
+import albuquerqueLogo from '@/assets/governments/AlbuquerqueLogo.png';
+import alexandriaLogo from '@/assets/governments/AlexandriaLogo.png';
+import cdiiLogo from '@/assets/governments/CDIILogo.png';
+import fortLauderdaleLogo from '@/assets/governments/FortLauderdale.png';
+import madisonLogo from '@/assets/governments/Madison.png';
+import missoulaLogo from '@/assets/governments/Missoula.png';
+import montanaSITSDLogo from '@/assets/governments/MontanaSITSD.png';
+
 import { StaticImageData } from 'next/image';
 
 export const governments: {
@@ -68,6 +76,34 @@ export const governments: {
     lebanon: {
         name: 'Lebanon',
         logo: lebanonLogo
+    },
+    albuquerque: {
+        name: 'Albuquerque',
+        logo: albuquerqueLogo
+    },
+    alexandria: {
+        name: 'Alexandria',
+        logo: alexandriaLogo
+    },
+    cdii: {
+        name: 'CDII',
+        logo: cdiiLogo
+    },
+    fortLauderdale: {
+        name: 'Fort Lauderdale',
+        logo: fortLauderdaleLogo
+    },
+    madison: {
+        name: 'Madison',
+        logo: madisonLogo
+    },
+    missoula: {
+        name: 'Missoula',
+        logo: missoulaLogo
+    },
+    montanaSITSD: {
+        name: 'Montana SITSD',
+        logo: montanaSITSDLogo
     }
 };
 
