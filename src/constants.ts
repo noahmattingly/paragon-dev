@@ -24,11 +24,11 @@ import lebanonLogo from '@/assets/governments/Lebanon.png';
 import albuquerqueLogo from '@/assets/governments/AlbuquerqueLogo.png';
 import alexandriaLogo from '@/assets/governments/AlexandriaLogo.png';
 import cdiiLogo from '@/assets/governments/CDIILogo.png';
-import fortLauderdaleLogo from '@/assets/governments/FortLauderdale.png';
+//import fortLauderdaleLogo from '@/assets/governments/FortLauderdale.png';
 import madisonLogo from '@/assets/governments/Madison.png';
 import missoulaLogo from '@/assets/governments/Missoula.png';
 import montanaSITSDLogo from '@/assets/governments/MontanaSITSD.png';
-
+import usstatelogo from '@/assets/governments/USStateLogo.png';
 import { StaticImageData } from 'next/image';
 
 export const governments: {
@@ -89,10 +89,10 @@ export const governments: {
         name: 'CDII',
         logo: cdiiLogo
     },
-    fortLauderdale: {
-        name: 'Fort Lauderdale',
-        logo: fortLauderdaleLogo
-    },
+    // fortLauderdale: {
+    //     name: 'Fort Lauderdale',
+    //     logo: fortLauderdaleLogo
+    // },
     madison: {
         name: 'Madison',
         logo: madisonLogo
@@ -104,6 +104,10 @@ export const governments: {
     montanaSITSD: {
         name: 'Montana SITSD',
         logo: montanaSITSDLogo
+    },
+    usState: {
+        name: 'U.S. Department of State',
+        logo: usstatelogo
     }
 };
 
